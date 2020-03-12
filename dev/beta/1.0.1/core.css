@@ -1,0 +1,36 @@
+/* multi.css Rel. 1.0.1  - (c) - Copyright 2019-2020 Ralph Neumann - MIT License */
+/* Basic page settings (html, body) */
+/* ================================ */
+/*
+1. Set font-size to 16px = 1rem to support rem units
+2. Set line-hight to 1.5 as common use
+  Not using `font` property because a leading hyphen (e.g. -apple-system) causes the font to break in IE11 and Microsoft Edge
+3. Prevent adjustments of font size after orientation changes in iOS.
+4. Base background and font color
+*/
+
+html {
+    /* 1 */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    font-weight: normal;
+    
+    /* 2 */
+    line-height: 1.5;
+    
+    /* 3 */
+    -webkit-text-size-adjust: 100%;
+    
+    /* 4 */
+    background: #fff;
+    color: #666;
+}
+
+/* Remove the margin in all browsers. */
+
+body {
+    margin: 0;
+}
+
+
+
