@@ -1,5 +1,5 @@
 /* multi.css Rel. 1.0.1  - (c) - Copyright 2019-2020 Ralph Neumann - MIT License */
-/* Basic page settings (html, body) */
+/* Basic css settings */
 /* ================================ */
 /*
 1. Set font-size to 16px = 1rem to support rem units
@@ -9,28 +9,62 @@
 4. Base background and font color
 */
 
+/* Remove and reset all margins in all browsers. */
+
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+
 html {
-    /* 1 */
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 16px;
-    font-weight: normal;
-    
-    /* 2 */
-    line-height: 1.5;
-    
-    /* 3 */
-    -webkit-text-size-adjust: 100%;
-    
-    /* 4 */
-    background: #fff;
-    color: #666;
+  /* 1 */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  font-weight: normal;
+
+  /* 2 */
+  line-height: 1.5;
+
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+
+  /* 4 */
+  background: #fff;
+  color: #666;
 }
 
-/* Remove the margin in all browsers. */
-
-body {
-    margin: 0;
+button,
+input,
+select,
+textarea {
+  margin: 0;
 }
+
+/* Remove the margins in all browsers. */
+
 
 
 
