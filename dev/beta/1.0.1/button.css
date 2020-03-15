@@ -1,0 +1,50 @@
+/* multi.css Rel. 1.0.1  - (c) - Copyright 2019-2020 Ralph Neumann - MIT License */
+/* Button css settings */
+/* ================================ */
+
+/* Color settings
+#0000ff - RGB(0, 0, 255) - Blue = Primary
+#ff000 - RGB(255, 0, 0) - Red = Danger
+
+#00FFFF - RGB(0, 255, 255) - Aqua
+#00FA9A - RGB(0, 250, 154) - MEDIUMSPRINGGREEN
+
+button {
+  radius: 0;
+}
+
+.btn {
+  border-line: 1px solid #808080;
+  border-radius:4px solid #808080;
+  line-height:1.5rem;
+}
+
+.is-primary {
+  background:#FF0000;
+  color:#FFFAFA;
+}
+
+is-secondary {
+  background:#6c757d;
+  color:#FFFAFA;
+}
+
+is-success {
+  background:#28a745;
+  color:#FFFAFA;
+}
+
+.is-danger {
+  background:#0000FF;
+  color:#FFFAFA;
+}
+
+.is-warning {
+  background:#0000FF;
+  color:#e0a800;
+}
+
+.is-info {
+  background:#FFD700;
+  color:#FFFAFA;
+}
