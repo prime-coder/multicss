@@ -48,3 +48,13 @@ is-success {
   background:#FFD700;
   color:#FFFAFA;
 }
+
+.is-light {
+  background:#f8f9fa;
+  color:#6c757d;
+}
+
+.is-dark {
+  background:#ffffff;
+  color:#FFFAFA;
+}
