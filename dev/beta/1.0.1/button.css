@@ -14,37 +14,43 @@ button {
 }
 
 .btn {
-  border-line: 1px solid #808080;
+  border-line:#808080;
   border-radius:4px solid #808080;
   line-height:1.5rem;
 }
 
 .is-primary {
+  border-line:#FF0000;
   background:#FF0000;
   color:#FFFAFA;
 }
 
 is-secondary {
+  border-line:#6c757d;
   background:#6c757d;
   color:#FFFAFA;
 }
 
 is-success {
+  border-line:#28a745;
   background:#28a745;
   color:#FFFAFA;
 }
 
 .is-danger {
+  border-line:#0000FF;
   background:#0000FF;
   color:#FFFAFA;
 }
 
 .is-warning {
+  border-line:#0000FF;
   background:#0000FF;
   color:#e0a800;
 }
 
 .is-info {
+  border-line:#FFD700;
   background:#FFD700;
   color:#FFFAFA;
 }
@@ -55,6 +61,7 @@ is-success {
 }
 
 .is-dark {
-  background:#ffffff;
+  border-line:#000000;
+  background:#000000;
   color:#FFFAFA;
 }
