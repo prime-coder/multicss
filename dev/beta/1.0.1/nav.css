@@ -1,0 +1,22 @@
+/* multi.css Rel. 1.0.1  - (c) - Copyright 2019-2020 Ralph Neumann - MIT License */
+/* Navigation css settings */
+/* ================================ */
+
+nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.navbar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  fex-wrap: wrap;
+  padding-left: 0;
+  padding-right: 0;
+}
