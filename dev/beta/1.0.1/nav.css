@@ -2,6 +2,7 @@
 /* Navigation css settings */
 /* ================================ */
 
+/* nav can be used as extra container.
 nav {
   display: -ms-flexbox;
   display: flex;
@@ -11,6 +12,7 @@ nav {
   margin-bottom: 0;
   list-style: none;
 }
+*/
 
 .navbar {
   display: -ms-flexbox;
@@ -19,4 +21,26 @@ nav {
   fex-wrap: wrap;
   padding-left: 0;
   padding-right: 0;
+  list-style: none;
+}
+
+.navbar > .container, .navbar > .container-fluid {
+  align-items: stretch;
+  display: flex;
+  min-height: 3.25rem;
+  width: 100%;
+}
+
+.navbar.nb-fix-bottom, .navbar.nb-fix-top {
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.navbar.nb-fixed-top {
+  top: 0;
+}
+
+.navbar.nb-fixed-bottom {
+  bottom: 0;
 }
