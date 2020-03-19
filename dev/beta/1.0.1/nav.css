@@ -44,3 +44,11 @@ nav {
 .navbar.nb-fixed-bottom {
   bottom: 0;
 }
+
+.navbar.nb-background {
+  background:#000000;
+}
+
+.navbar.nb-color {
+  color:#ffffff;
+}
