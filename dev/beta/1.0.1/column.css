@@ -1,0 +1,15 @@
+/* multi.css Rel. 1.0.1  - (c) - Copyright 2019-2020 Ralph Neumann - MIT License */
+/* Column css settings */
+/* ================================ */
+
+.col {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.75rem;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col.7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-100w {
+  display:block
+}
